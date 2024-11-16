@@ -1,0 +1,216 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>DIGITALIZACION DEL DINERO</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/identificador.jpg">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">INTRODUCCION</a>
+          <a href="#secc2">VENTAJAS</a>
+          <a href="#secc3">DESVENTAJAS</a>
+          <a href="#secc4">CONCLUSIONES</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>INTRODUCCION</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El avance tecnológico y el desarrollo de una mayor cultura financiera están haciendo posible que paulatinamente sea mayor la utilización de medios de pago electrónicos en detrimento de la utilización de dinero físico.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Ante esta situación, surge la cuestión relativa a si llegará un momento en el que pueda desaparecer la moneda física tal y como la conocemos, de manera que todos y absolutamente todos los movimientos de dinero se realicen por medio de anotaciones contables, sin necesidad de que los intervinientes en las transacciones tengan que entregar y a su vez recibir billetes y/o monedas para perfeccionar la transacción.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/INTRODUCCION.jpg" title="Img 1a">
+	        		<img src="imagenes/introduccionmoneda.jpg" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Dinero Digital.</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Transacciones Digitales</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>VENTAJAS</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>1. Reducción de la especulación, fraude y blanqueo de capitales.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La eliminación del dinero físico daría beneficios en la lucha contra el fraude y blanqueo de capitales. Acabaría con los paraísos fiscales, transacciones bancarias de dudosa legalidad.</p>
+		        <br><!--etiqueta para un brinco de renglón-->  
+		        <p>2.	Reducción de ciertos delitos</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Se reducirían ciertos delitos como el tráfico de drogas o armas ya que se realizan los pagos en dinero en efectivo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>3. Fin de las retiradas masivas</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>En situaciones de pánico bancario, no se realizarían retiradas masivas en efectivo, simplemente se trasladarían los depósitos de un banco a otro.</p>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/ventajas.jpg" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Reducción de Delitos y Dinero "Sucio".</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>DESVENTAJAS</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>1. Desigualdades sociales</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desaparición del dinero en efectivo supondría una bancarización total de los ciudadanos y esto, en una sociedad tan desigual como la nuestra, supondría un impacto muy fuerte en las clases más desfavorecidas. Sería una medida absolutamente contraproducente.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>2.Precarización</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>La desaparición del dinero en efectivo afectaría sobre todo a gente con un nivel de marginalidad muy elevado, que usan muy poco el sistema financiero y que vive, además, dentro de una economía sumergida. Todo esto afectaría muy negativamente a sus condiciones de vida. Hay que tener en cuenta que, seguramente, una parte de la población no se va a bancarizar nunca.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>3.Exclusion </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>La desaparición del dinero en efectivo puede dificultar el acceso al pago o cobro a los sectores más precarios y empobrecidos, así como a aquellos con más barreras tecnológicas, como la gente mayor.<p/>
+
+
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/DESVENTAJAS.jpg" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Exclusion de grupos sin acceso a la tecnología</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>CONCLUSIONES</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Si bien la eliminación gradual del pago en efectivo, con el horizonte de su desaparición definitiva se enmarca en la lucha contra el fraude fiscal; no parece haber una correlación directa entre el mayor uso de dinero en efectivo, su digitalización y la disminución de la evasión impositiva ya que gran parte del fraude se realiza de forma informática. De hecho, un ejemplo evidente son las situaciones de compensación entre bancos y empresas, que son de una opacidad absoluta.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Otro punto que considerar en la digitalización del dinero es que las medidas de seguridad (y ciberseguridad) a adoptar en los medios de pago electrónicos de los que dispondríamos deberían optimizarse en la mayor medida de lo posible, generalizando sistemas de reconocimiento de huellas digitales, de reconocimiento del iris y en general de información biométrica difícilmente falsificable, aunque por desgracia seguramente no imposible.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/conclusiones.jpg" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>La digitalización del dinero parece buena opción hacia el futuro, pero falta analizar el impacto que podría tener en ciertos sectores de la población que no estan digitalizados</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/FACEBOOK.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/TWITTER.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/INSTAGRAM.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Collar Duran, Carlos. ((2019)). Reflexiones en torno a una economía sin dinero físico. Cuadernos de economía, (42), 279-284, </p>
+	      <br><!--etiqueta para un brinco de renglón-->
+	      <p style="">Pelayo de las Heras. (Agosto 2020). El fin del dinero en efectivo, ¿un nuevo factor de desigualdad?. Economía. ethic Recuperado de https://ethic.es/2020/08/el-fin-del-dinero-en-efectivo-un-nuevo-factor-de-desigualdad/</p>
+	      <br><!--etiqueta para un brinco de renglón-->
+	      <p style="">Katz, Sebastián. (Abril 2022). ¿Qué es el Dinero Digital de Bancos Centrales (CBDC)? Una introducción a sus principales características, oportunidades y riesgos potenciales. Investigaciones Economicas. Banco Central de la República Argentina.</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/Boton Inicio.png">
+	    </a>
+
+</body>
+
+</html>
